@@ -1,0 +1,42 @@
+name: Generate README
+
+on:
+  push:
+    paths:
+      - "data/conferences.yml"
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install pyyaml
+
+      - name: Generate README.md
+        run: python scripts/generate_readme.py
+
+      - name: Check for changes
+        id: diff
+        run: |
+          git diff --quiet README.md || echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Commit and push
+        if: steps.diff.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "docs: auto-generate README from conferences.yml"
+          git push
