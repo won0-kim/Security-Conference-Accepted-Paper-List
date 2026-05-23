@@ -7,17 +7,19 @@ Accepted paper lists for top-4 security conferences (S&P, USENIX Security, CCS, 
 > [Quick Links](#quick-links) :sparkles: [S&P](#SP) :sparkles: [USENIX Security](#USENIX-Security) :sparkles: [CCS](#CCS) :sparkles: [NDSS](#NDSS)
 
 ## Quick Links
-| Conference | 2026 | 2025 | 2024 | 2023 | 2022 | 2021 |
+| Conference | 2027 | 2026 | 2025 | 2024 | 2023 | 2022 |
 | ---------- | ---- | ---- | ---- | ---- | ---- | ---- |
-| [S&P](#SP) |  | [🔗](https://www.ieee-security.org/TC/SP2025/accepted-papers.html) | [🔗](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | [🔗](https://www.ieee-security.org/TC/SP2023/program-papers.html) | [🔗](https://www.ieee-security.org/TC/SP2022/program-papers.html) | [🔗](https://www.ieee-security.org/TC/SP2021/program-papers.html) |
-| [USENIX Security](#USENIX-Security) |  | [🔗](https://www.usenix.org/conference/usenixsecurity25/technical-sessions) | [🔗](https://www.usenix.org/conference/usenixsecurity24/technical-sessions) | [🔗](https://www.usenix.org/conference/usenixsecurity23/technical-sessions) | [🔗](https://www.usenix.org/conference/usenixsecurity22/technical-sessions) | [🔗](https://www.usenix.org/conference/usenixsecurity21/technical-sessions) |
-| [CCS](#CCS) |  | [🔗](https://www.sigsac.org/ccs/CCS2025/accepted-papers/) | [🔗](https://www.sigsac.org/ccs/CCS2024/program/accepted-papers.html) | [🔗](https://www.sigsac.org/ccs/CCS2023/tocs/tocs-ccs23.html) | [🔗](https://www.sigsac.org/ccs/CCS2022/program/accepted-papers.html) | [🔗](https://www.sigsac.org/ccs/CCS2021/accepted-papers.html) |
-| [NDSS](#NDSS) |  | [🔗](https://www.ndss-symposium.org/ndss2025/accepted-papers/) | [🔗](https://www.ndss-symposium.org/ndss2024/accepted-papers/) | [🔗](https://www.ndss-symposium.org/ndss2023/accepted-papers/) | [🔗](https://www.ndss-symposium.org/ndss2022/accepted-papers/) | [🔗](https://www.ndss-symposium.org/ndss2021/accepted-papers/) |
+| [S&P](#SP) |  | [🔗](https://www.ieee-security.org/TC/SP2026/accepted-papers.html) | [🔗](https://www.ieee-security.org/TC/SP2025/accepted-papers.html) | [🔗](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | [🔗](https://www.ieee-security.org/TC/SP2023/program-papers.html) | [🔗](https://www.ieee-security.org/TC/SP2022/program-papers.html) |
+| [USENIX Security](#USENIX-Security) |  | [🔗](https://www.usenix.org/conference/usenixsecurity26/cycle1-accepted-papers) | [🔗](https://www.usenix.org/conference/usenixsecurity25/technical-sessions) | [🔗](https://www.usenix.org/conference/usenixsecurity24/technical-sessions) | [🔗](https://www.usenix.org/conference/usenixsecurity23/technical-sessions) | [🔗](https://www.usenix.org/conference/usenixsecurity22/technical-sessions) |
+| [CCS](#CCS) |  |  | [🔗](https://www.sigsac.org/ccs/CCS2025/accepted-papers/) | [🔗](https://www.sigsac.org/ccs/CCS2024/program/accepted-papers.html) | [🔗](https://www.sigsac.org/ccs/CCS2023/tocs/tocs-ccs23.html) | [🔗](https://www.sigsac.org/ccs/CCS2022/program/accepted-papers.html) |
+| [NDSS](#NDSS) |  | [🔗](https://www.ndss-symposium.org/ndss2026/accepted-papers/) | [🔗](https://www.ndss-symposium.org/ndss2025/accepted-papers/) | [🔗](https://www.ndss-symposium.org/ndss2024/accepted-papers/) | [🔗](https://www.ndss-symposium.org/ndss2023/accepted-papers/) | [🔗](https://www.ndss-symposium.org/ndss2022/accepted-papers/) |
 
 ## S&P
 | Year | Official Website | Paper List | Deadline | Notification | Conference | Location |
 | ---- | ---------------- | ---------- | -------- | ------------ | ---------- | -------- |
-| 2026 (Cycle 1)| [🏠 website](https://www.ieee-security.org/TC/SP2026/)| | 2025-06-05| 2025-09-09| 2026-05-18| San Francisco, CA|
+| 2027 (Cycle 1)| [🏠 website](https://www.ieee-security.org/TC/SP2027/)| | 2026-06-11| 2026-09-11| | Montreal, Canada|
+| 2027 (Cycle 2)| | | 2026-11-17| 2027-03-05| | |
+| 2026 (Cycle 1)| [🏠 website](https://www.ieee-security.org/TC/SP2026/)| [🔗 link](https://www.ieee-security.org/TC/SP2026/accepted-papers.html)| 2025-06-05| 2025-09-09| 2026-05-18| San Francisco, CA|
 | 2026 (Cycle 2)| | | 2025-11-13| 2026-03-09| | |
 | 2025 (Cycle 1)| [🏠 website](https://www.ieee-security.org/TC/SP2025/)| [🔗 link](https://www.ieee-security.org/TC/SP2025/accepted-papers.html)| 2024-06-06| 2024-09-09| 2025-05-12| San Francisco, CA|
 | 2025 (Cycle 2)| | | 2024-11-14| 2025-03-10| | |
@@ -40,7 +42,9 @@ Accepted paper lists for top-4 security conferences (S&P, USENIX Security, CCS, 
 [Official Collection](https://www.usenix.org/conferences/byname/108)
 | Year | Official Website | Paper List | Deadline | Notification | Conference | Location |
 | ---- | ---------------- | ---------- | -------- | ------------ | ---------- | -------- |
-| 2026 (Cycle 1)| [🏠 website](https://www.usenix.org/conference/usenixsecurity26)| | 2025-08-26| 2025-12-04| 2026-08-12| Baltimore, MD|
+| 2027 (Cycle 1)| [🏠 website](https://www.usenix.org/conference/usenixsecurity27)| | 2026-08-25| | 2027-08-11| Denver, CO|
+| 2027 (Cycle 2)| | | 2027-01-26| | | |
+| 2026 (Cycle 1)| [🏠 website](https://www.usenix.org/conference/usenixsecurity26)| [🔗 link](https://www.usenix.org/conference/usenixsecurity26/cycle1-accepted-papers)| 2025-08-26| 2025-12-04| 2026-08-12| Baltimore, MD|
 | 2026 (Cycle 2)| | | 2026-02-05| 2026-05-14| | |
 | 2025 (Cycle 1)| [🏠 website](https://www.usenix.org/conference/usenixsecurity25)| [🔗 link](https://www.usenix.org/conference/usenixsecurity25/technical-sessions)| 2024-09-04| 2024-12-11| 2025-08-13| Seattle, WA|
 | 2025 (Cycle 2)| | | 2025-01-22| 2025-04-30| | |
@@ -83,7 +87,9 @@ Accepted paper lists for top-4 security conferences (S&P, USENIX Security, CCS, 
 [Official Collection](https://www.ndss-symposium.org/previous-ndss-symposia/)
 | Year | Official Website | Paper List | Deadline | Notification | Conference | Location |
 | ---- | ---------------- | ---------- | -------- | ------------ | ---------- | -------- |
-| 2026 (Summer)| [🏠 website](https://www.ndss-symposium.org/ndss2026/submissions/call-for-papers/)| | 2025-04-23| 2025-07-02| 2026-02-23| San Diego, CA|
+| 2027 (Summer)| [🏠 website](https://www.ndss-symposium.org/ndss2027/)| | 2026-05-06| 2026-07-22| 2027-03-22| Seoul, Republic of Korea|
+| 2027 (Fall)| | | 2026-08-19| 2026-11-04| | |
+| 2026 (Summer)| [🏠 website](https://www.ndss-symposium.org/ndss2026/)| [🔗 link](https://www.ndss-symposium.org/ndss2026/accepted-papers/)| 2025-04-23| 2025-07-02| 2026-02-23| San Diego, CA|
 | 2026 (Fall)| | | 2025-08-06| 2025-10-22| | |
 | 2025 (Summer)| [🏠 website](https://www.ndss-symposium.org/ndss2025/)| [🔗 link](https://www.ndss-symposium.org/ndss2025/accepted-papers/)| 2024-04-17| 2024-06-20| 2025-02-24| San Diego, CA|
 | 2025 (Fall)| | | 2024-07-10| 2024-09-19| | |

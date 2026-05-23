@@ -9,8 +9,20 @@ conferences:
     anchor: "SP"
     website_pattern: "https://www.ieee-security.org/TC/SP{year}/"
     years:
+      - year: 2027
+        website: "https://www.ieee-security.org/TC/SP2027/"
+        conference_date: ""
+        location: "Montreal, Canada"
+        cycles:
+          - name: "Cycle 1"
+            deadline: "2026-06-11"
+            notification: "2026-09-11"
+          - name: "Cycle 2"
+            deadline: "2026-11-17"
+            notification: "2027-03-05"
       - year: 2026
         website: "https://www.ieee-security.org/TC/SP2026/"
+        paper_list: "https://www.ieee-security.org/TC/SP2026/accepted-papers.html"
         conference_date: "2026-05-18"
         location: "San Francisco, CA"
         cycles:
@@ -111,8 +123,20 @@ conferences:
     anchor: "USENIX-Security"
     collection_url: "https://www.usenix.org/conferences/byname/108"
     years:
+      - year: 2027
+        website: "https://www.usenix.org/conference/usenixsecurity27"
+        conference_date: "2027-08-11"
+        location: "Denver, CO"
+        cycles:
+          - name: "Cycle 1"
+            deadline: "2026-08-25"
+            notification: ""
+          - name: "Cycle 2"
+            deadline: "2027-01-26"
+            notification: ""
       - year: 2026
         website: "https://www.usenix.org/conference/usenixsecurity26"
+        paper_list: "https://www.usenix.org/conference/usenixsecurity26/cycle1-accepted-papers"
         conference_date: "2026-08-12"
         location: "Baltimore, MD"
         cycles:
@@ -308,8 +332,20 @@ conferences:
     anchor: "NDSS"
     collection_url: "https://www.ndss-symposium.org/previous-ndss-symposia/"
     years:
+      - year: 2027
+        website: "https://www.ndss-symposium.org/ndss2027/"
+        conference_date: "2027-03-22"
+        location: "Seoul, Republic of Korea"
+        cycles:
+          - name: "Summer"
+            deadline: "2026-05-06"
+            notification: "2026-07-22"
+          - name: "Fall"
+            deadline: "2026-08-19"
+            notification: "2026-11-04"
       - year: 2026
-        website: "https://www.ndss-symposium.org/ndss2026/submissions/call-for-papers/"
+        website: "https://www.ndss-symposium.org/ndss2026/"
+        paper_list: "https://www.ndss-symposium.org/ndss2026/accepted-papers/"
         conference_date: "2026-02-23"
         location: "San Diego, CA"
         cycles:
