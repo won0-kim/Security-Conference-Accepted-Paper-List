@@ -68,6 +68,8 @@ Accepted paper lists for top-4 security conferences (S&P, USENIX Security, CCS, 
 ## CCS
 | Year | Official Website | Paper List | Deadline | Notification | Conference | Location |
 | ---- | ---------------- | ---------- | -------- | ------------ | ---------- | -------- |
+| 2027 (Cycle 1)| [🏠 website](https://www.sigsac.org/ccs/CCS2027/)| | | | | TBA (October 2027)|
+| 2027 (Cycle 2)| | | | | | |
 | 2026 (Cycle 1)| [🏠 website](https://www.sigsac.org/ccs/CCS2026/)| | 2026-01-14| 2026-04-09| 2026-11-15| The Hague, Netherlands|
 | 2026 (Cycle 2)| | | 2026-04-29| 2026-07-17| | |
 | 2025 (Cycle 1)| [🏠 website](https://www.sigsac.org/ccs/CCS2025/)| [🔗 link](https://www.sigsac.org/ccs/CCS2025/accepted-papers/)| 2025-01-09| 2025-03-28| 2025-10-13| Taipei, Taiwan|

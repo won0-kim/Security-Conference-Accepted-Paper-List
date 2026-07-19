@@ -242,6 +242,17 @@ conferences:
     full_name: "ACM Conference on Computer and Communications Security"
     anchor: "CCS"
     years:
+      - year: 2027
+        website: "https://www.sigsac.org/ccs/CCS2027/"
+        conference_date: ""
+        location: "TBA (October 2027)"
+        cycles:
+          - name: "Cycle 1"
+            deadline: ""
+            notification: ""
+          - name: "Cycle 2"
+            deadline: ""
+            notification: ""
       - year: 2026
         website: "https://www.sigsac.org/ccs/CCS2026/"
         conference_date: "2026-11-15"
