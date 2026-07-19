@@ -136,7 +136,11 @@ conferences:
             notification: ""
       - year: 2026
         website: "https://www.usenix.org/conference/usenixsecurity26"
-        paper_list: "https://www.usenix.org/conference/usenixsecurity26/technical-sessions"
+        paper_list:
+          - label: "Cycle 1"
+            url: "https://www.usenix.org/conference/usenixsecurity26/cycle1-accepted-papers"
+          - label: "Session"
+            url: "https://www.usenix.org/conference/usenixsecurity26/technical-sessions"
         conference_date: "2026-08-12"
         location: "Baltimore, MD"
         cycles:

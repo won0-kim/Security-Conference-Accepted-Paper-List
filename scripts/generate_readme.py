@@ -14,6 +14,26 @@ def load_data():
         return yaml.safe_load(f)
 
 
+def paper_links(y):
+    """Normalize a year's paper_list into a list of {label, url} dicts.
+
+    Accepts either a single URL string (label defaults to "link") or a list
+    of {label, url} entries, so a year can expose several known lists at once
+    (e.g. USENIX "Cycle 1" and "Session")."""
+    pl = y.get("paper_list")
+    if not pl:
+        return []
+    if isinstance(pl, str):
+        return [{"label": "link", "url": pl}]
+    return pl
+
+
+def primary_paper_url(y):
+    """URL used for the single Quick Links icon: the last (most complete) list."""
+    links = paper_links(y)
+    return links[-1]["url"] if links else None
+
+
 def build_quick_links(conferences):
     all_years = sorted(
         {y["year"] for c in conferences for y in c["years"]}, reverse=True
@@ -29,8 +49,9 @@ def build_quick_links(conferences):
     for conf in conferences:
         paper_map = {}
         for y in conf["years"]:
-            if "paper_list" in y:
-                paper_map[y["year"]] = y["paper_list"]
+            url = primary_paper_url(y)
+            if url:
+                paper_map[y["year"]] = url
 
         cells = []
         for yr in cols:
@@ -79,8 +100,9 @@ def build_conference_table(conf):
         website = (
             f'<a href="{y["website"]}">🏠 website</a>' if "website" in y else ""
         )
-        paper_list = (
-            f'<a href="{y["paper_list"]}">🔗 link</a>' if "paper_list" in y else ""
+        paper_list = "<br>".join(
+            f'<a href="{link["url"]}">🔗 {_esc(link["label"])}</a>'
+            for link in paper_links(y)
         )
         conf_date = _esc(y.get("conference_date", ""))
         location = _esc(y.get("location", ""))

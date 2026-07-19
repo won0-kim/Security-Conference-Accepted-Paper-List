@@ -48,7 +48,7 @@ Accepted paper lists for top-4 security conferences (S&P, USENIX Security, CCS, 
 <tbody>
 <tr><td>2027 (Cycle 1)</td><td rowspan="2"><a href="https://www.usenix.org/conference/usenixsecurity27">🏠 website</a></td><td rowspan="2"></td><td>2026-08-25</td><td></td><td rowspan="2">2027-08-11</td><td rowspan="2">Denver, CO</td></tr>
 <tr><td>2027 (Cycle 2)</td><td>2027-01-26</td><td></td></tr>
-<tr><td>2026 (Cycle 1)</td><td rowspan="2"><a href="https://www.usenix.org/conference/usenixsecurity26">🏠 website</a></td><td rowspan="2"><a href="https://www.usenix.org/conference/usenixsecurity26/technical-sessions">🔗 link</a></td><td>2025-08-26</td><td>2025-12-04</td><td rowspan="2">2026-08-12</td><td rowspan="2">Baltimore, MD</td></tr>
+<tr><td>2026 (Cycle 1)</td><td rowspan="2"><a href="https://www.usenix.org/conference/usenixsecurity26">🏠 website</a></td><td rowspan="2"><a href="https://www.usenix.org/conference/usenixsecurity26/cycle1-accepted-papers">🔗 Cycle 1</a><br><a href="https://www.usenix.org/conference/usenixsecurity26/technical-sessions">🔗 Session</a></td><td>2025-08-26</td><td>2025-12-04</td><td rowspan="2">2026-08-12</td><td rowspan="2">Baltimore, MD</td></tr>
 <tr><td>2026 (Cycle 2)</td><td>2026-02-05</td><td>2026-05-14</td></tr>
 <tr><td>2025 (Cycle 1)</td><td rowspan="2"><a href="https://www.usenix.org/conference/usenixsecurity25">🏠 website</a></td><td rowspan="2"><a href="https://www.usenix.org/conference/usenixsecurity25/technical-sessions">🔗 link</a></td><td>2024-09-04</td><td>2024-12-11</td><td rowspan="2">2025-08-13</td><td rowspan="2">Seattle, WA</td></tr>
 <tr><td>2025 (Cycle 2)</td><td>2025-01-22</td><td>2025-04-30</td></tr>
