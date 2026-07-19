@@ -10,7 +10,7 @@ Accepted paper lists for top-4 security conferences (S&P, USENIX Security, CCS, 
 | Conference | 2027 | 2026 | 2025 | 2024 | 2023 | 2022 |
 | ---------- | ---- | ---- | ---- | ---- | ---- | ---- |
 | [S&P](#SP) |  | [🔗](https://www.ieee-security.org/TC/SP2026/accepted-papers.html) | [🔗](https://www.ieee-security.org/TC/SP2025/accepted-papers.html) | [🔗](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | [🔗](https://www.ieee-security.org/TC/SP2023/program-papers.html) | [🔗](https://www.ieee-security.org/TC/SP2022/program-papers.html) |
-| [USENIX Security](#USENIX-Security) |  | [🔗](https://www.usenix.org/conference/usenixsecurity26/cycle1-accepted-papers) | [🔗](https://www.usenix.org/conference/usenixsecurity25/technical-sessions) | [🔗](https://www.usenix.org/conference/usenixsecurity24/technical-sessions) | [🔗](https://www.usenix.org/conference/usenixsecurity23/technical-sessions) | [🔗](https://www.usenix.org/conference/usenixsecurity22/technical-sessions) |
+| [USENIX Security](#USENIX-Security) |  | [🔗](https://www.usenix.org/conference/usenixsecurity26/technical-sessions) | [🔗](https://www.usenix.org/conference/usenixsecurity25/technical-sessions) | [🔗](https://www.usenix.org/conference/usenixsecurity24/technical-sessions) | [🔗](https://www.usenix.org/conference/usenixsecurity23/technical-sessions) | [🔗](https://www.usenix.org/conference/usenixsecurity22/technical-sessions) |
 | [CCS](#CCS) |  |  | [🔗](https://www.sigsac.org/ccs/CCS2025/accepted-papers/) | [🔗](https://www.sigsac.org/ccs/CCS2024/program/accepted-papers.html) | [🔗](https://www.sigsac.org/ccs/CCS2023/tocs/tocs-ccs23.html) | [🔗](https://www.sigsac.org/ccs/CCS2022/program/accepted-papers.html) |
 | [NDSS](#NDSS) |  | [🔗](https://www.ndss-symposium.org/ndss2026/accepted-papers/) | [🔗](https://www.ndss-symposium.org/ndss2025/accepted-papers/) | [🔗](https://www.ndss-symposium.org/ndss2024/accepted-papers/) | [🔗](https://www.ndss-symposium.org/ndss2023/accepted-papers/) | [🔗](https://www.ndss-symposium.org/ndss2022/accepted-papers/) |
 
@@ -44,7 +44,7 @@ Accepted paper lists for top-4 security conferences (S&P, USENIX Security, CCS, 
 | ---- | ---------------- | ---------- | -------- | ------------ | ---------- | -------- |
 | 2027 (Cycle 1)| [🏠 website](https://www.usenix.org/conference/usenixsecurity27)| | 2026-08-25| | 2027-08-11| Denver, CO|
 | 2027 (Cycle 2)| | | 2027-01-26| | | |
-| 2026 (Cycle 1)| [🏠 website](https://www.usenix.org/conference/usenixsecurity26)| [🔗 link](https://www.usenix.org/conference/usenixsecurity26/cycle1-accepted-papers)| 2025-08-26| 2025-12-04| 2026-08-12| Baltimore, MD|
+| 2026 (Cycle 1)| [🏠 website](https://www.usenix.org/conference/usenixsecurity26)| [🔗 link](https://www.usenix.org/conference/usenixsecurity26/technical-sessions)| 2025-08-26| 2025-12-04| 2026-08-12| Baltimore, MD|
 | 2026 (Cycle 2)| | | 2026-02-05| 2026-05-14| | |
 | 2025 (Cycle 1)| [🏠 website](https://www.usenix.org/conference/usenixsecurity25)| [🔗 link](https://www.usenix.org/conference/usenixsecurity25/technical-sessions)| 2024-09-04| 2024-12-11| 2025-08-13| Seattle, WA|
 | 2025 (Cycle 2)| | | 2025-01-22| 2025-04-30| | |
