@@ -44,7 +44,17 @@ def build_quick_links(conferences):
     return "\n".join(lines)
 
 
+def _esc(text):
+    """Escape text for safe inclusion in an HTML cell."""
+    return str(text).replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+
+
 def build_conference_table(conf):
+    # Year-level columns (website, paper list, conference date, location) are
+    # rendered as rowspan-merged cells across a year's submission cycles, so a
+    # single "full list" link (e.g. USENIX Technical Sessions, which spans both
+    # cycles) visibly covers the whole year rather than looking cycle-1-only.
+    # Markdown pipe tables cannot merge cells, hence the raw HTML table.
     lines = []
 
     # Header
@@ -52,45 +62,54 @@ def build_conference_table(conf):
     if "collection_url" in conf:
         lines.append(f"[Official Collection]({conf['collection_url']})")
 
+    lines.append("<table>")
     lines.append(
-        "| Year | Official Website | Paper List "
-        "| Deadline | Notification | Conference | Location |"
+        "<thead><tr>"
+        "<th>Year</th><th>Official Website</th><th>Paper List</th>"
+        "<th>Deadline</th><th>Notification</th>"
+        "<th>Conference</th><th>Location</th>"
+        "</tr></thead>"
     )
-    lines.append(
-        "| ---- | ---------------- | ---------- "
-        "| -------- | ------------ | ---------- | -------- |"
-    )
+    lines.append("<tbody>")
 
     for y in conf["years"]:
-        cycles = y.get("cycles", [])
+        cycles = y.get("cycles", []) or [{}]
+        span = len(cycles)
+
+        website = (
+            f'<a href="{y["website"]}">🏠 website</a>' if "website" in y else ""
+        )
+        paper_list = (
+            f'<a href="{y["paper_list"]}">🔗 link</a>' if "paper_list" in y else ""
+        )
+        conf_date = _esc(y.get("conference_date", ""))
+        location = _esc(y.get("location", ""))
+
         for i, cycle in enumerate(cycles):
-            is_first = i == 0
             cycle_name = cycle.get("name", "")
             if cycle_name:
                 year_label = f"{y['year']} ({cycle_name})"
             else:
                 year_label = str(y["year"])
 
-            if is_first:
-                website = f"[🏠 website]({y['website']})" if "website" in y else ""
-                paper_list = (
-                    f"[🔗 link]({y['paper_list']})" if "paper_list" in y else ""
-                )
-                conf_date = y.get("conference_date", "")
-                location = y.get("location", "")
-            else:
-                website = ""
-                paper_list = ""
-                conf_date = ""
-                location = ""
+            deadline = _esc(cycle.get("deadline", ""))
+            notification = _esc(cycle.get("notification", ""))
 
-            deadline = cycle.get("deadline", "")
-            notification = cycle.get("notification", "")
+            cells = [f"<td>{_esc(year_label)}</td>"]
+            if i == 0:
+                rs = f' rowspan="{span}"' if span > 1 else ""
+                cells.append(f"<td{rs}>{website}</td>")
+                cells.append(f"<td{rs}>{paper_list}</td>")
+            cells.append(f"<td>{deadline}</td>")
+            cells.append(f"<td>{notification}</td>")
+            if i == 0:
+                cells.append(f"<td{rs}>{conf_date}</td>")
+                cells.append(f"<td{rs}>{location}</td>")
 
-            lines.append(
-                f"| {year_label}| {website}| {paper_list}"
-                f"| {deadline}| {notification}| {conf_date}| {location}|"
-            )
+            lines.append("<tr>" + "".join(cells) + "</tr>")
+
+    lines.append("</tbody>")
+    lines.append("</table>")
 
     return "\n".join(lines)
 
