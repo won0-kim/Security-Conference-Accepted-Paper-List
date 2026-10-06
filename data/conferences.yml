@@ -1,6 +1,7 @@
 # Security Conference Accepted Paper List - Data Source
 # Edit this file to update conference information.
 # Run `python scripts/generate_readme.py` or push to trigger GitHub Actions.
+# 2026/2027 entries verified against official conference websites on 2026-10-06.
 
 conferences:
   - id: sp
@@ -9,9 +10,10 @@ conferences:
     anchor: "SP"
     website_pattern: "https://www.ieee-security.org/TC/SP{year}/"
     years:
+      # Schedule: https://www.ieee-security.org/TC/SP2027/cfpapers.html
       - year: 2027
         website: "https://www.ieee-security.org/TC/SP2027/"
-        conference_date: ""
+        conference_date: "2027-05-17"
         location: "Montreal, Canada"
         cycles:
           - name: "Cycle 1"
@@ -123,6 +125,7 @@ conferences:
     anchor: "USENIX-Security"
     collection_url: "https://www.usenix.org/conferences/byname/108"
     years:
+      # Schedule: https://www.usenix.org/conference/usenixsecurity27/call-for-papers
       - year: 2027
         website: "https://www.usenix.org/conference/usenixsecurity27"
         conference_date: "2027-08-11"
@@ -130,10 +133,10 @@ conferences:
         cycles:
           - name: "Cycle 1"
             deadline: "2026-08-25"
-            notification: ""
+            notification: "2026-12-03"
           - name: "Cycle 2"
             deadline: "2027-01-26"
-            notification: ""
+            notification: "2027-05-06"
       - year: 2026
         website: "https://www.usenix.org/conference/usenixsecurity26"
         paper_list:
@@ -246,19 +249,17 @@ conferences:
     full_name: "ACM Conference on Computer and Communications Security"
     anchor: "CCS"
     years:
+      # Only the conference dates and location are announced; submission dates are pending.
+      # Source: https://www.sigsac.org/ccs/CCS2027/
       - year: 2027
         website: "https://www.sigsac.org/ccs/CCS2027/"
-        conference_date: ""
-        location: "TBA (October 2027)"
+        conference_date: "2027-10-11"
+        location: "Atlanta, GA"
         cycles:
-          - name: "Cycle 1"
-            deadline: ""
-            notification: ""
-          - name: "Cycle 2"
-            deadline: ""
-            notification: ""
+          - name: ""
       - year: 2026
         website: "https://www.sigsac.org/ccs/CCS2026/"
+        paper_list: "https://www.sigsac.org/ccs/CCS2026/program/accepted-papers.html"
         conference_date: "2026-11-15"
         location: "The Hague, Netherlands"
         cycles:
@@ -347,6 +348,7 @@ conferences:
     anchor: "NDSS"
     collection_url: "https://www.ndss-symposium.org/previous-ndss-symposia/"
     years:
+      # Schedule: https://www.ndss-symposium.org/ndss2027/submissions/call-for-papers/
       - year: 2027
         website: "https://www.ndss-symposium.org/ndss2027/"
         conference_date: "2027-03-22"
@@ -354,10 +356,10 @@ conferences:
         cycles:
           - name: "Summer"
             deadline: "2026-05-06"
-            notification: "2026-07-22"
+            notification: "2026-07-29 (tentative)"
           - name: "Fall"
             deadline: "2026-08-19"
-            notification: "2026-11-04"
+            notification: "2026-11-24"
       - year: 2026
         website: "https://www.ndss-symposium.org/ndss2026/"
         paper_list: "https://www.ndss-symposium.org/ndss2026/accepted-papers/"
